@@ -31,7 +31,14 @@ h6{
     color: white;
 }
 
-:hover{
-    text-decoration: none;
-}
+@media(max-width:576px){
+    h2{
+        text-align: left;
+        padding-left: 7px;
+    }
+    h6{
+        text-align: left;
+        padding-left: 7px;
+    }
 
+}
