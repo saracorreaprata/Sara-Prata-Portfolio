@@ -3,12 +3,12 @@ font-family: 'Poppins', sans-serif;*/
 
 
 h1{
-    text-align: center;
+    display: flex;
     font-family: 'Be Vietnam', sans-serif;
 }
 
 p{
-    text-align: center;
+    display: flex;
     font-family: 'Poppins', sans-serif;;
     font-size: small;
 }
