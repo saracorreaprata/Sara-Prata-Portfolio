@@ -2,21 +2,36 @@
 font-family: 'Poppins', sans-serif;*/
 
 
-h1{
-    display: flex;
+h2{
     font-family: 'Be Vietnam', sans-serif;
+    font-size: 80px;
+    padding-left: 100px;
+
 }
 
-p{
-    display: flex;
-    font-family: 'Poppins', sans-serif;;
-    font-size: small;
+h6{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+#heading{
+    padding-top: 210px;
 }
 
 .hero{
     background:url("../imgs/Background1.png");
-    padding-bottom: 70%;
     background-size: cover;
     width: 100%;
     color: white;
+    height: 100vh;
 }
+
+.homepage-link{
+    color: white;
+}
+
+:hover{
+    text-decoration: none;
+}
+
