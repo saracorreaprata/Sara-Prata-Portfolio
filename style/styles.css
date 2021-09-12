@@ -68,13 +68,6 @@ h4 {
     .about-me, .home{
         display: none;
     }
-
-
-
-}
-
-.navbar-brand{
-    font-family: var(--heading-font-family);
 }
 
 .homepage{
