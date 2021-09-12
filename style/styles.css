@@ -1,17 +1,16 @@
 /*font-family: 'Be Vietnam', sans-serif;
 font-family: 'Poppins', sans-serif;*/
-
-
-h2{
-    font-family: 'Be Vietnam', sans-serif;
-    font-size: 80px;
-    padding-left: 100px;
-
+:root{
+    --heading-font-family:'Be Vietnam', sans-serif;
+    --default-font-family:'Poppins', sans-serif;
 }
 
-h6{
-    font-family: 'Be Vietnam', sans-serif;
-    font-size: 15px;
+body{
+    font-family: var(--default-font-family);
+}
+
+h2,h6{
+    font-family: var(--heading-font-family);
     padding-left: 100px;
 }
 
@@ -25,6 +24,14 @@ h6{
     width: 100%;
     color: white;
     height: 100vh;
+}
+
+.hero h2{
+    font-size: 80px;
+}
+
+.hero h6{
+    font-size: 15px;
 }
 
 .homepage-link{
