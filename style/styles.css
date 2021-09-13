@@ -12,7 +12,7 @@ body{
 h1{
     font-family: var(--heading-font-family);
     text-align: center;
-    padding-top: 250px;
+    padding-top: 300px;
 }
 
 p{
@@ -37,6 +37,14 @@ h4 {
 
 .hero{
     background:url("../imgs/Background1.png");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 100vh;
+}
+
+.about-sara{
+    background:url("../imgs/background3.jpg");
     background-size: cover;
     width: 100%;
     color: white;
@@ -72,10 +80,11 @@ h4 {
 }
 
 .homepage{
-    background:url("../imgs/background2.jpg");
+    background:url("../imgs/background3.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
+    color: white;
 }
 
 nav{
@@ -95,7 +104,7 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-family: var(--default-font-family);
     font-size: 14px;
 }
@@ -103,12 +112,12 @@ nav a{
 nav a:hover,
 nav li.active a
 {
-    color:grey;
+    color:rgb(61, 61, 61);
     transition: all 100ms ease-in-out;
 }
-
-
-
+.about-me-text{
+    margin-top: -50px;
+}
 .about-section h1{
     font-size: 25px;
     text-align: left;
@@ -127,7 +136,7 @@ nav li.active a
 }
 
 #contact a:hover{
-    color: rgb(253, 66, 175);
+    color: rgb(48, 48, 48);
     transition: all 100ms ease-in-out;
 }
 
