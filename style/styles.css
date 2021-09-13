@@ -147,4 +147,16 @@ nav li.active a
     color: var(--nav-secondary-color)
 }
 
+.project{
+    margin-top: 100px;
+}
 
+.project-one{
+    padding: 20px 10px;
+}
+
+.project h1{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
