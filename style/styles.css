@@ -107,4 +107,19 @@ nav li.active a
     transition: all 100ms ease-in-out;
 }
 
+.about-section h1{
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+}
 
+.about-section p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.email-link{
+    text-decoration: none;
+    font-size: 12px;
+    color: hotpink;
+}
