@@ -17,6 +17,10 @@ body{
     padding-top: 300px;
 }
 
+h1{
+    font-family: var(--heading-font-family);
+}
+
 p{
     text-align: center;
 }
@@ -26,11 +30,13 @@ h2,h6{
     padding-left: 100px;
 }
 
-h4 {
+h4{
     line-height: 40px;
     margin-left: 15px;
+}
+
+.logo {
     font-family: var(--heading-font-family);
-    font-size: 15px;
 }
 
 #heading{
@@ -158,6 +164,11 @@ nav li.active a, p a:hover
 
 .project-home a{
     color: var(--nav-secondary-color)
+}
+
+.project-logo a{
+    color: var(--nav-secondary-color);
+    font-family: var(--heading-font-family);
 }
 
 p a{
