@@ -123,7 +123,7 @@ nav li.active a, p a:hover
     font-family: var(--heading-font-family);
 }
 .about-me-text{
-    margin-top: -50px;
+    margin-top: 250px;
 }
 .about-section h1{
     font-size: 25px;
@@ -145,6 +145,16 @@ nav li.active a, p a:hover
 #contact a:hover{
     color: rgb(48, 48, 48);
     transition: all 100ms ease-in-out;
+}
+
+#social-media a:hover{
+    color: rgb(48, 48, 48);
+    transition: all 100ms ease-in-out;
+}
+
+#social-media a{
+    color: white;
+    font-size: 12px;
 }
 
 .project-home a{
