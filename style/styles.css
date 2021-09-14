@@ -83,7 +83,6 @@ h4 {
 
 }
 
-
 .homepage{
     background:url("../imgs/background3.jpg");
     background-size: cover;
@@ -170,6 +169,7 @@ p a{
     margin-top: 250px;
 }
 
+
 .content-container h5{
     font-size: 17px;
     font-family: var(--heading-font-family);
@@ -188,4 +188,3 @@ p a{
     text-align: center;
     font-size: 20px;
 }
-
