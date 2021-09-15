@@ -212,3 +212,11 @@ p a{
 .project-body{
     background: rgb(241, 241, 241);
 }
+
+.git-hub{
+    font-size: 12px;
+}
+
+.git-hub a{
+    font-family: var(--default-font-family);
+}
