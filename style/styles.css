@@ -209,8 +209,9 @@ p a{
     max-width: 40%;
     display: block;
     align-items: center;
-    margin-left: 155px;
-    margin-top: 20px;
+    margin-left: 127px;
+    padding-bottom: 20px;
+    margin-top: 27px;
 }
 
 .social-content h1{
