@@ -1,0 +1,236 @@
+:root{
+    --default-font-family: 'Open Sans', sans-serif;
+    --nav-primary-color: white;
+}
+
+.landing{
+   background: url(../img/background.jpg);
+   height: 130vh;
+   padding-top: 45px;
+   position: fixed;
+}
+
+h1{
+    text-align: center;
+    padding-top: 70px;
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align:center;
+    font-family: var(--default-font-family);
+    color: var(--nav-primary-color);
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+p1{
+    text-align: center;
+    font-family: var(--default-font-family);
+    color: var(--nav-primary-color);
+    font-size: 15px;
+}
+
+p2{
+    font-family: var(--default-font-family);
+    color: var(--nav-primary-color);
+    font-size: 15px;
+}
+
+#social-media{
+    text-align: center;
+    
+}
+
+#media{
+    padding-right: 10px;
+}
+
+/*ipad*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        
+    }
+
+    .img-fluid{
+        width: 7%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+        bottom: 0px;
+    }
+
+}
+
+/*ipad pro*/
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+    p{
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 33px;
+        
+    }
+
+    h1{
+        height: 17vw;
+    }
+
+    .img-fluid{
+        width: 8%;
+
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+    }
+
+    .landing{
+        height: 100vh;
+        padding-top: 45px;
+        position: fixed;
+     }
+
+}
+
+
+@media (max-width: 576px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        position: absolute; 
+
+    }
+
+}
+/*iphone x*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 817px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+
+    h1{
+        padding-top: 10px;
+    }
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        
+    }
+
+}
+
+@media(max-width : 575px) { 
+    
+  
+    p{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+
+    h1{
+        padding-top: 10px;
+    }
+
+
+    .img-fluid{
+        width: 8%;
+    }
+
+    .img-fluid-heading{
+        width: 30%;
+    }
+
+    .img-fluid-logo{
+        width: 35%;
+        margin-bottom: 0vw;
+    }
+
+    .landing{
+        height: fit-content;
+        
+    }
+
+}
