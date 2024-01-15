@@ -205,6 +205,14 @@ p a{
     display: block;
 }
 
+.resized-image{
+    max-width: 40%;
+    display: block;
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 20px;
+}
+
 .social-content h1{
     margin-top: 7px;
     margin-bottom: 50px;
@@ -226,3 +234,4 @@ p a{
 .git-hub a{
     font-family: var(--default-font-family);
 }
+
